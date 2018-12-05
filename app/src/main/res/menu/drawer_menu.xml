@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g1">
+        <item android:title="Home"
+            android:id="@+id/mHome"
+            android:icon="@drawable/ic_home" />
+
+        <item android:title="Setting"
+            android:id="@+id/mSetting"
+            android:icon="@drawable/ic_settings" />
+
+        <item android:title="Exit"
+            android:id="@+id/mExit"
+            android:icon="@drawable/ic_exit" />
+
+    </group>
+
+</menu>
